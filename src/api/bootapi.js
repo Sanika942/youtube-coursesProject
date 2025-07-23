@@ -1,2 +1,2 @@
-const base_url = "https://spring-boot-app-5tuu.onrender.com";
+const base_url = process.env.REACT_APP_BASE_URL;
 export default base_url;
